@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="validetion.css">
+        <body>
+            
+            <div><h1>Form Validation</h1>
+                
+                    <nav><form>
+                        <table>
+                        <tr><td><b>Usernmae</b></td></tr>
+                        <tr><td><input type="text" id="user" style="width:500px"></td></tr>
+                        <tr><td><b>password</b></td></tr>
+                        <tr><td><b><input type="text" id="pass"style="width:500px"><b></td></tr>
+                        <tr><td><b>Confrimpassword</b></td></tr>
+                        <tr><td><input type="text" id="password" style="width:500px"></td></tr>
+                        <tr><td><b>Mobile Number</b></td></tr>
+                        <tr><td><input type="text" id="mobile" style="width:500px"></td></tr>
+                        <tr><td><b>E-mail</b></td></tr>
+                        <tr><td><input type="text" id="mail" style="width:500px"></td></tr>
+                        <tr><td><button onclick="f1()">submit</button></td></tr>
+                    </table>
+             <p id="demo"></p>
+                </form>
+                </nav>
+            </div>
+        
+            <script>
+                function f1()
+                {
+                    
+                var a = document.getElementById("user").value;
+                var b = document.getElementById("pass").value;
+                var c = document.getElementById("password").value;
+                var d = document.getElementById("mobile").value;
+                var e =document.getElementById("mail")
+
+
+                if(a=="richapriya" && b=="richa123"&& c=="richa123" && d=="9102737603" &&
+                 e=="richapriya908@gmail.com")
+                 {
+                    document.write("richapriya");
+                }
+                else{
+                    document.write("richa")
+                }
+            }
+
+            </script>
+        </body>
+    </head>
+</html>
